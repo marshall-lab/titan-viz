@@ -7,7 +7,7 @@ import os
 import sys
 
 param_file = "viz_basic.yml"
-setting = "atlanta"
+setting = "scott"
 outdir="results"
 
 try:
