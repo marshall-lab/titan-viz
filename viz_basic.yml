@@ -1,0 +1,5 @@
+model:
+  num_pop: 100
+  network:
+    enable: true
+  num_reps: 1
