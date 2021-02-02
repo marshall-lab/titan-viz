@@ -45,7 +45,7 @@ def read_timestep(root_path: str, time: str):
                     for row in reader:
                         for k, v in row.items():
                             if k != "agent":
-                                agents[row["agent"]][f"{extra}_{k}"] = v
+                                agents[row["agent"]][f"{extra}_{k}"] = v.lower() if v in ('True', 'False') else v
 
     update_agent_extras(feat_files, "feat")
     update_agent_extras(exposure_files, "exposure")
