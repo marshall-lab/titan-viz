@@ -1,5 +1,7 @@
 # titan-viz
 
+See https://observablehq.com/@mcmcgrath13/visualizing-titan for usage of this data.
+
 # Getting Started
 
 ```
